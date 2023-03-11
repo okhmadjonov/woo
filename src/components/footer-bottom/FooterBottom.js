@@ -10,7 +10,7 @@ const FooterBottom = () => {
     <div className="footer__bottom">
       <div className="footer__bottom-contanier">
         <div className="footer__bottom-inner">
-          <div className="footer__bottom-card" style={{ width: "300px" }}>
+          <div className="footer__bottom-card" style={{ width: "200px" }}>
             <img src={tw} alt="Twitter" />
             <img src={fs} alt="facebook" />
             <img src={fw} alt="Wifi" />
@@ -18,7 +18,11 @@ const FooterBottom = () => {
           </div>
           <div className="footer__bottom-card">
             <p>
-              COPYRIGHT WOOCOMMERCE 2020 - TERMS & CONDITIONS PRIVACY POLICY
+              COPYRIGHT WOOCOMMERCE 2020 -
+              <span style={{ textDecoration: "underline", cursor: "pointer" }}>
+                {" "}
+                TERMS & CONDITIONS PRIVACY POLICY
+              </span>
             </p>
           </div>
           <div className="footer__bottom-card">
