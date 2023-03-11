@@ -1,0 +1,36 @@
+.footer__bottom {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  z-index: 1;
+  background-color: rgb(249, 249, 249);
+
+  .footer__bottom-contanier {
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    .footer__bottom-inner {
+      width: 100%;
+      height: 100%;
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .footer__bottom-card {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p {
+          font-family: "Roboto";
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 20px;
+          color: #272d4e;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,237 @@
+.feature__section {
+  width: 100%;
+
+  .feature__container {
+    width: 100%;
+    position: relative;
+    .feature__inner {
+      width: 100%;
+      max-width: 1200px;
+      height: 720px;
+      margin: 0 auto;
+
+      .feature__title {
+        width: 100%;
+        height: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h3 {
+          width: 400px;
+          height: 100%;
+          font-family: "Figtree";
+          font-weight: 700;
+          font-size: 45px;
+          line-height: 70px;
+          display: flex;
+          text-align: center;
+          color: #272d4e;
+        }
+      }
+      .feature_content {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .feature__items {
+          width: 380px;
+          height: 80%;
+          position: relative;
+
+          .feature__img {
+            width: 100%;
+            height: 220px;
+
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .fr__container {
+            width: 100%;
+            padding: 20px 0px 0px 30px;
+
+            .feature__title {
+              width: 100%;
+              height: 50px;
+              display: flex;
+              justify-content: start;
+
+              h4 {
+                font-family: "Figtree";
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 50px;
+                color: #272d4e;
+              }
+            }
+            .feature__subtitle {
+              width: 100%;
+              height: 50px;
+              display: flex;
+              align-items: center;
+              justify-content: start;
+
+              p {
+                font-family: "Roboto";
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: #94a2b3;
+              }
+            }
+            .feature__link {
+              margin-top: 30px;
+              width: 100%;
+              height: 30px;
+              display: flex;
+              align-items: center;
+              justify-content: start;
+              // border: 1px solid black;
+              a {
+                font-family: "Roboto";
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 20px;
+                color: #299ef3;
+
+                img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+            }
+          }
+          // first card blocks
+
+          .cardleft {
+            width: 180px;
+            height: 200px;
+            position: absolute;
+            left: -60px;
+            top: 50px;
+
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .pay {
+            width: 50px;
+            height: 40px;
+            position: absolute;
+            top: 30px;
+            left: -20px;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          //Second card blocks
+          .square {
+            position: absolute;
+            width: 150px;
+            height: 120px;
+            left: 30px;
+            top: -30px;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .facebookIcon {
+            position: absolute;
+            width: 150px;
+            height: 120px;
+            left: 30px;
+            top: 60px;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+
+          .googledrive {
+            position: absolute;
+            width: 150px;
+            height: 120px;
+            left: 100px;
+            top: 120px;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .jetpack {
+            position: absolute;
+            width: 150px;
+            height: 120px;
+            left: 180px;
+            top: 60px;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .mailch {
+            position: absolute;
+            width: 150px;
+            height: 100px;
+            left: 200px;
+            top: 10px;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .last1 {
+            position: absolute;
+            width: 150px;
+            height: 120px;
+            left: 20px;
+            top: -20px;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .last2 {
+            position: absolute;
+            width: 150px;
+            height: 110px;
+            left: 200px;
+            top: -80px;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .last3 {
+            position: absolute;
+            width: 150px;
+            height: 120px;
+            right: -20px;
+            top: 100px;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+
+        .item1 {
+          margin-top: 0px;
+        }
+        .item2 {
+          margin-top: 80px;
+        }
+        .item3 {
+          margin-top: 140px;
+        }
+      }
+    }
+  }
+}

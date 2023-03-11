@@ -1,0 +1,27 @@
+.card__wrapper {
+  width: 580px;
+  height: 280px;
+  border-radius: 20px;
+  font-size: 22px;
+  box-shadow: 1px 0px 10px 1px #e9eefd;
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  background-image: url(../../assets/img/dot.png);
+  background-repeat: no-repeat;
+  background-position: center 20px;
+  position: relative;
+  margin-left: 270px;
+  margin-top: 150px;
+  z-index: 3;
+
+  p {
+    font-family: "Figtree";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 90px 20px 0px 20px;
+    text-align: center;
+    color: #94a2b3;
+  }
+}
