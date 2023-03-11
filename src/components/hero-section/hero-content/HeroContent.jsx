@@ -19,8 +19,6 @@ const HeroContent = () => {
   const [size4, setSize4] = useState(false);
   const [size5, setSize5] = useState(false);
   const [count, setCount] = useState(0);
-  // const [price, setPrice] = useState(0);
-  const [amount, setAmount] = useState(344);
   const [isToggled, toggle] = useState(false);
 
   const handleSize1 = () => {
@@ -57,13 +55,9 @@ const HeroContent = () => {
             <div className="hero__newstart">
               <button> Start a New Store</button>
               <p className="hero__customize">
-                {/* <span className="extend__or">or</span> */}
                 <span className="extend__customize">
                   <img src={orce} alt="Customize or" />
                 </span>
-                {/* <span className="extend__icon">
-                  <FaAngleRight />
-                </span> */}
               </p>
             </div>
           </div>
@@ -194,7 +188,7 @@ const HeroContent = () => {
                   </div>
                   <div className="product__price__quantity">
                     <div className="price">
-                      <span className="product__price"> ${amount}</span>
+                      <span className="product__price"> $344</span>
                       <span className="total__summ">$560</span>
                     </div>
                     <div className="quantity">
